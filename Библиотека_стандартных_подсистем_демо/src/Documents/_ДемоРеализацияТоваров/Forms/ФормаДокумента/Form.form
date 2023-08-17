@@ -880,6 +880,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Сумма</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыСуммаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыСуммаРасширеннаяПодсказка</name>
             <id>370</id>
